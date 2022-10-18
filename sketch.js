@@ -29,6 +29,10 @@ function setup() {
     playerBase.body.position.y - 180,
     120,
     120
+    var options=
+    {
+    isStatic:true
+    }
   );
 
   board1 = new Board(width - 300, 330, 50, 200);
